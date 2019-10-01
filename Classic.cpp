@@ -152,6 +152,12 @@ void Classic::bottomRightCorner(int r, int c){
 void Classic::playGame(int fileVSconsole, string filename){ // the game
     int countGen = 0;
     ofstream out_file(filename);
+    while (!out_file){ //error checking out file
+        cout << "Error. File was not created." << endl;
+        cout << "Enter a new file name with .txt format. " << endl;
+        cin >> filename;
+        ofstream out_file(filename);
+    }
     while(true){ // determining the number of neighbors for all cells and creating future gen
 
         for (int i = 0; i < row; ++i){
