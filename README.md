@@ -20,3 +20,5 @@ Sources:
 https://ubuntuforums.org/showthread.php?t=296142
 https://stackoverflow.com/questions/8469900/cant-downcast-because-class-is-not-polymorphic/8470002
 https://stackoverflow.com/questions/18410234/how-does-one-represent-the-empty-char
+Udemy C++ Course
+Brandon Fabre
